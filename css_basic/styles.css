@@ -1,0 +1,26 @@
+body .logo {}
+
+body main {
+          display: flex;
+          }
+
+body {
+     flex-direction: column;
+     }
+
+main {
+     flex-direction: row;
+     flex: auto;
+     }
+
+main article {
+             flex: 2;
+             overflow-y: auto;
+             color: purple;
+             background-color: black;
+             }
+
+main aside {
+           flex: 1;
+           overflow-y: auto;
+           }
